@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:  100%;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav i{ 
+    font-size: 16px;
+    border: 1.5px solid;
+    font-weight: 500;
+    padding: 5px 16px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 100;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+
+}
+#bt2{
+    border: none;
+    color: orangered;
+    background-color: orangered;  
+}
+#main>h1{
+     font-size: 140px;
+     font-style: normal;
+     text-transform: uppercase;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 400%;
+     text-align: center;
+     
+
+}
+img{
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+
+
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm-left{
+    font-style: normal;
+    position: absolute;
+    bottom: 4%;
+    left: 3%;
+    font-size: 13px;
+}
+#btm-right{
+    font-style: normal;
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+    font-size: 14px;
+}
